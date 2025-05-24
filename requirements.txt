@@ -1,5 +1,5 @@
-# Python requirements for the text summarizer agent
-ollama-client
-# For CLI and file operations
-rich
-typer
+# Python requirements
+PyYAML~=6.0.2
+fastapi~=0.115.12
+Jinja2~=3.1.6
+starlette~=0.46.1

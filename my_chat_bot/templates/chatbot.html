@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Chat Bot</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="home-btn">🏠 Home</a>
+        <h1>💬 My Chat Bot</h1>
+        <form method="post">
+            <input type="text" name="question" placeholder="Ask a question..." value="{{ question }}" required>
+            <button type="submit">Ask</button>
+        </form>
+        {% if answer %}
+        <div class="result-box">
+            <h2>Bot Answer</h2>
+            <p>{{ answer }}</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
+

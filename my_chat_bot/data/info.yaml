@@ -1,0 +1,26 @@
+name: Samar Dash
+dob: 27-03-1996
+location: Norwich
+email: samar@example.com
+phone: +44 0123456789
+website: https://samardash.com
+summary: |
+  Samar Dash is a seasoned software engineer with a passion for building scalable and efficient systems. 
+  With a strong background in computer science and a focus on cloud computing, 
+  Samar is dedicated to creating innovative solutions that drive innovation and productivity.
+skills:
+  - Java
+  - Python
+  - Docker
+  - LLMs
+  - Kubernetes
+  - AWS
+  - Azure
+  - DevOps
+  - Cloud Computing
+hobbies:
+  - Problem Solving
+  - Hiking
+  - Walking
+  - Gym
+  - Driving

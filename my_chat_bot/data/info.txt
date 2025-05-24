@@ -1,0 +1,9 @@
+# Example personal info in YAML format
+name: Samar Dash
+location: India
+favorite_language: Python
+hobbies:
+  - AI
+  - coding
+  - music
+
