@@ -5,6 +5,7 @@ import os
 
 from text_summarisation.api import router as summarizer_router
 from my_chat_bot.api import router as chatbot_router
+from sentiment_analysis.api import router as sentiment_router
 
 app = FastAPI()
 
@@ -14,6 +15,7 @@ TEMPLATE_DIRS = [
     os.path.join(BASE_DIR, "templates"),
     os.path.join(BASE_DIR, "text_summarisation", "templates"),
     os.path.join(BASE_DIR, "my_chat_bot", "templates"),
+    os.path.join(BASE_DIR, "sentiment_analysis", "templates"),
 ]
 
 # Custom Jinja2Templates to support multiple template dirs
@@ -38,3 +40,4 @@ def home(request: Request):
 # Mount routers for each AI tool
 app.include_router(summarizer_router)
 app.include_router(chatbot_router)
+app.include_router(sentiment_router)

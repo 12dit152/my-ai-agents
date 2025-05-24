@@ -9,14 +9,18 @@
 <body>
     <div class="container home">
         <h1>🤖 Welcome to Samar Dash's AI Playground</h1>
-        <div class="tool-cards">
-            <a href="/summarizer" class="tool-card">
+        <div class="tool-cards" style="display: flex; flex-wrap: wrap; gap: 32px; justify-content: center; margin-top: 32px;">
+            <a href="/summarizer" class="tool-card" style="flex: 1 1 260px; min-width: 240px; max-width: 320px;">
                 <h2>📝 Text Summarizer</h2>
                 <p>Summarize any text using a local LLM.</p>
             </a>
-            <a href="/chatbot" class="tool-card">
+            <a href="/chatbot" class="tool-card" style="flex: 1 1 260px; min-width: 240px; max-width: 320px;">
                 <h2>💬 My Chat Bot</h2>
                 <p>Ask questions based on your personal info (RAG).</p>
+            </a>
+            <a href="/sentiment" class="tool-card" style="flex: 1 1 260px; min-width: 240px; max-width: 320px;">
+                <h2>📊 Sentiment Analysis</h2>
+                <p>Analyze the sentiment (positive/negative/neutral) of any text.</p>
             </a>
         </div>
     </div>

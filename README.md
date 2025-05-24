@@ -1,13 +1,14 @@
 # 👨‍💻 Author
 
-Developed with ❤️ by [Samar Dash](https://github.com/samardash)
+Developed with ❤️ by [Samar Dash](https://github.com/12dit152)
 
 # 🧩 Project Overview
 
 This repository contains multiple AI-powered tools:
 
-- **text_summarisation/**: A local text summarization agent using LLMs (Mistral, Phi-2) via Ollama. Reads `.txt` or `.md` files and generates concise summaries. See `text_summarisation/README.md` for details.
+- **text_summarisation/**: A local text summarisation agent using LLMs (Mistral, Phi-2) via Ollama. Reads `.txt` or `.md` files and generates concise summaries. See `text_summarisation/README.md` for details.
 - **my_chat_bot/**: A retrieval-augmented chatbot that uses your personal info from `info.yaml` to answer questions contextually. See `my_chat_bot/README.md` for details.
+- **sentiment_analysis/**: Analyze the sentiment (positive/negative/neutral) of a text file or pasted text using a local LLM. See `sentiment_analysis/README.md` for details.
 
 ---
 
@@ -27,7 +28,7 @@ This repository contains multiple AI-powered tools:
 >      ```bash
 >      ollama run mistral
 >      ```
->   4. Use the provided Python scripts or web interface to interact with the model for summarization or chat.
+>   4. Use the provided Python scripts or web interface to interact with the model for summarisation, chat, or sentiment analysis.
 
 ---
 
